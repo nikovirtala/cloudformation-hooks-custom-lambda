@@ -2,7 +2,7 @@ import { AwsCdkApp } from "@nikovirtala/projen-aws-cdk-app";
 const project = new AwsCdkApp({
     cdkVersion: "2.170.0",
     defaultReleaseBranch: "main",
-    devDeps: ["@nikovirtala/projen-aws-cdk-app"],
+    devDeps: ["@nikovirtala/projen-aws-cdk-app", "@types/aws-lambda"],
     name: "cloudformation-hooks-custom-lambda",
     projenrcTs: true,
     tsconfig: {
