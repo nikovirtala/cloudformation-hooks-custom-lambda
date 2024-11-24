@@ -28,7 +28,18 @@
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "moduleResolution": "nodenext",
-    "noImplicitOverride": true
+    "noImplicitOverride": true,
+    "paths": {
+      "@/custom-types": [
+        "./src/types/index.ts"
+      ],
+      "@/handlers/*": [
+        "./src/handlers/*"
+      ],
+      "@/stacks": [
+        "./src/stacks/index.ts"
+      ]
+    }
   },
   "include": [
     "src/**/*.ts",
