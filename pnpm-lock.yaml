@@ -22,11 +22,11 @@ importers:
         version: 9.6.0
     devDependencies:
       '@nikovirtala/projen-aws-cdk-app':
-        specifier: ^0.0.75
-        version: 0.0.75(constructs@10.4.2)(projen@0.91.4(constructs@10.4.2))
+        specifier: ^0.0.76
+        version: 0.0.76(constructs@10.4.2)(projen@0.91.5(constructs@10.4.2))
       '@types/node':
         specifier: ^22
-        version: 22.10.2
+        version: 22.10.3
       '@typescript-eslint/eslint-plugin':
         specifier: ^8
         version: 8.19.0(@typescript-eslint/parser@8.19.0(eslint@9.17.0)(typescript@5.7.2))(eslint@9.17.0)(typescript@5.7.2)
@@ -58,8 +58,8 @@ importers:
         specifier: ^3.4.2
         version: 3.4.2
       projen:
-        specifier: ^0.91.4
-        version: 0.91.4(constructs@10.4.2)
+        specifier: ^0.91.5
+        version: 0.91.5(constructs@10.4.2)
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
@@ -432,12 +432,12 @@ packages:
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.75':
-    resolution: {integrity: sha512-el52/SdoHz5m78i2WYMR5xWVb4HQEl+LdW2QIKPERwfkNSmnXXVEprjWiIR/j40T4qaCcGnSef3/fzZKZDEzpQ==}
+  '@nikovirtala/projen-aws-cdk-app@0.0.76':
+    resolution: {integrity: sha512-rS3879duzbYGLRkDfJm/wEJU5yLnWqcDvmVFQx9iaPjQeItePFR46M9Rge103lEev5L600fdSR9EiCt0gPmGag==}
     engines: {node: '>= 22.12.0'}
     peerDependencies:
       constructs: ^10.4.2
-      projen: ^0.91.4
+      projen: ^0.91.5
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -474,8 +474,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.10.2':
-    resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
+  '@types/node@22.10.3':
+    resolution: {integrity: sha512-DifAyw4BkrufCILvD3ucnuN8eydUfc/C1GlyrnI+LK6543w5/L3VeVgf05o3B4fqSXP1dKYLOZsKfutpxPzZrw==}
 
   '@typescript-eslint/eslint-plugin@8.19.0':
     resolution: {integrity: sha512-NggSaEZCdSrFddbctrVjkVZvFC6KGfKfNK0CU7mNK/iKHGKbzT4Wmgm08dKpcZECBu9f5FypndoMyRHkdqfT1Q==}
@@ -1249,8 +1249,8 @@ packages:
   process-warning@4.0.0:
     resolution: {integrity: sha512-/MyYDxttz7DfGMMHiysAsFE4qF+pQYAA8ziO/3NcRVrQ5fSk+Mns4QZA/oRPFzvcqNoVJXQNWNAsdwBXLUkQKw==}
 
-  projen@0.91.4:
-    resolution: {integrity: sha512-EM/P2VhKvi2HG75zzMX2y5u5Z3WjwE/jrHV7uWps8tPN96thRKepEiENOJt78XG+6LXWB7x7/9WYCJyuzmBC5Q==}
+  projen@0.91.5:
+    resolution: {integrity: sha512-j4gzywNELz3Adq5YZ6PoyyzZWXat29y7zdCi8pnkUjuuXdDJgx5dHDRM/KPyEJpo8ytx6hY5GOHsOZnea4/cgw==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -1709,10 +1709,10 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.1': {}
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.75(constructs@10.4.2)(projen@0.91.4(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.76(constructs@10.4.2)(projen@0.91.5(constructs@10.4.2))':
     dependencies:
       constructs: 10.4.2
-      projen: 0.91.4(constructs@10.4.2)
+      projen: 0.91.5(constructs@10.4.2)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -1740,7 +1740,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.10.2':
+  '@types/node@22.10.3':
     dependencies:
       undici-types: 6.20.0
 
@@ -2689,7 +2689,7 @@ snapshots:
 
   process-warning@4.0.0: {}
 
-  projen@0.91.4(constructs@10.4.2):
+  projen@0.91.5(constructs@10.4.2):
     dependencies:
       constructs: 10.4.2
 
