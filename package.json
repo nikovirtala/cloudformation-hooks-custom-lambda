@@ -23,7 +23,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.76",
+    "@nikovirtala/projen-aws-cdk-app": "^0.0.77",
     "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
@@ -40,7 +40,7 @@
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "@types/aws-lambda": "^8.10.146",
+    "@types/aws-lambda": "^8.10.147",
     "aws-cdk-lib": "2.170.0",
     "constructs": "^10.0.5",
     "pino": "^9.6.0"
