@@ -5,6 +5,10 @@
       "type": "build"
     },
     {
+      "name": "@nikovirtala/projen-vitest",
+      "type": "build"
+    },
+    {
       "name": "@types/node",
       "version": "^22",
       "type": "build"
@@ -67,12 +71,22 @@
       "type": "build"
     },
     {
+      "name": "vitest",
+      "version": "^2",
+      "type": "build"
+    },
+    {
+      "name": "@vitest/coverage-v8",
+      "version": "^2",
+      "type": "devenv"
+    },
+    {
       "name": "@types/aws-lambda",
       "type": "runtime"
     },
     {
       "name": "aws-cdk-lib",
-      "version": "2.170.0",
+      "version": "2.177.0",
       "type": "runtime"
     },
     {

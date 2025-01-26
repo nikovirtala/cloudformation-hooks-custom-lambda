@@ -1,0 +1,270 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Snapshot 1`] = `
+{
+  "Parameters": {
+    "BootstrapVersion": {
+      "Default": "/cdk-bootstrap/hnb659fds/version",
+      "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]",
+      "Type": "AWS::SSM::Parameter::Value<String>",
+    },
+  },
+  "Resources": {
+    "ChangeSetFunction2CB6D94D": {
+      "DependsOn": [
+        "ChangeSetFunctionServiceRole87D5FB3A",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "70353d415a3d0ebd2d2bcf71a6fb591d9f4f653ca988ac573fcbf01dae9ef174.zip",
+        },
+        "Handler": "index.handler",
+        "LoggingConfig": {
+          "ApplicationLogLevel": "DEBUG",
+          "LogFormat": "JSON",
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "ChangeSetFunctionServiceRole87D5FB3A",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "ChangeSetFunctionServiceRole87D5FB3A": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "ChangeSetHook": {
+      "Properties": {
+        "Alias": "Test::Lambda::ChangeSetHook",
+        "ExecutionRole": {
+          "Fn::GetAtt": [
+            "HooksRole0184100C",
+            "Arn",
+          ],
+        },
+        "FailureMode": "WARN",
+        "HookStatus": "ENABLED",
+        "LambdaFunction": {
+          "Fn::GetAtt": [
+            "ChangeSetFunction2CB6D94D",
+            "Arn",
+          ],
+        },
+        "StackFilters": {
+          "FilteringCriteria": "ALL",
+          "StackNames": {
+            "Exclude": [
+              "test",
+            ],
+          },
+        },
+        "TargetOperations": [
+          "CHANGE_SET",
+        ],
+      },
+      "Type": "AWS::CloudFormation::LambdaHook",
+    },
+    "HooksRole0184100C": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "hooks.cloudformation.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyDocument": {
+              "Statement": [
+                {
+                  "Action": "lambda:InvokeFunction",
+                  "Effect": "Allow",
+                  "Resource": [
+                    {
+                      "Fn::GetAtt": [
+                        "ChangeSetFunction2CB6D94D",
+                        "Arn",
+                      ],
+                    },
+                    {
+                      "Fn::GetAtt": [
+                        "TemplateFunction8B010058",
+                        "Arn",
+                      ],
+                    },
+                  ],
+                },
+              ],
+              "Version": "2012-10-17",
+            },
+            "PolicyName": "LambdaInvokerHookPolicy",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "StackHook": {
+      "Properties": {
+        "Alias": "Test::Lambda::StackHook",
+        "ExecutionRole": {
+          "Fn::GetAtt": [
+            "HooksRole0184100C",
+            "Arn",
+          ],
+        },
+        "FailureMode": "WARN",
+        "HookStatus": "ENABLED",
+        "LambdaFunction": {
+          "Fn::GetAtt": [
+            "TemplateFunction8B010058",
+            "Arn",
+          ],
+        },
+        "StackFilters": {
+          "FilteringCriteria": "ALL",
+          "StackNames": {
+            "Exclude": [
+              "test",
+            ],
+          },
+        },
+        "TargetOperations": [
+          "STACK",
+        ],
+      },
+      "Type": "AWS::CloudFormation::LambdaHook",
+    },
+    "TemplateFunction8B010058": {
+      "DependsOn": [
+        "TemplateFunctionServiceRoleD527DE0A",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
+          },
+          "S3Key": "4d3e1bc5eb18f8d2331baac7cc71cda6ec2b5dfda8308d3720529159a4a44c9b.zip",
+        },
+        "Handler": "index.handler",
+        "LoggingConfig": {
+          "ApplicationLogLevel": "DEBUG",
+          "LogFormat": "JSON",
+        },
+        "Role": {
+          "Fn::GetAtt": [
+            "TemplateFunctionServiceRoleD527DE0A",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs22.x",
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "TemplateFunctionServiceRoleD527DE0A": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+  },
+  "Rules": {
+    "CheckBootstrapVersion": {
+      "Assertions": [
+        {
+          "Assert": {
+            "Fn::Not": [
+              {
+                "Fn::Contains": [
+                  [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                  ],
+                  {
+                    "Ref": "BootstrapVersion",
+                  },
+                ],
+              },
+            ],
+          },
+          "AssertDescription": "CDK bootstrap stack version 6 required. Please run 'cdk bootstrap' with a recent version of the CDK CLI.",
+        },
+      ],
+    },
+  },
+}
+`;
