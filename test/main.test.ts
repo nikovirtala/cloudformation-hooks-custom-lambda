@@ -1,6 +1,7 @@
 import { App } from "aws-cdk-lib";
 import { Template } from "aws-cdk-lib/assertions";
-import { MyStack } from "../src/main";
+import { test, expect } from "vitest";
+import { MyStack } from "../src/stacks";
 
 test("Snapshot", () => {
     const app = new App();
