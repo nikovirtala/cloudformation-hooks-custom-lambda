@@ -23,10 +23,10 @@ importers:
     devDependencies:
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.99
-        version: 0.0.99(@nikovirtala/projen-vitest@1.2.31(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2)))(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))
+        version: 0.0.99(@nikovirtala/projen-vitest@1.2.32(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2)))(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
-        specifier: ^1.2.31
-        version: 1.2.31(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))
+        specifier: ^1.2.32
+        version: 1.2.32(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))
       '@types/node':
         specifier: ^22
         version: 22.13.10
@@ -41,7 +41,7 @@ importers:
         version: 2.1.9(vitest@2.1.9(@types/node@22.13.10))
       aws-cdk:
         specifier: ^2
-        version: 2.1003.0
+        version: 2.1004.0
       esbuild:
         specifier: ^0.25.1
         version: 0.25.1
@@ -52,11 +52,11 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.22.0)
       eslint-import-resolver-typescript:
-        specifier: ^3.8.6
-        version: 3.8.6(eslint-plugin-import@2.31.0)(eslint@9.22.0)
+        specifier: ^3.8.7
+        version: 3.8.7(eslint-plugin-import@2.31.0)(eslint@9.22.0)
       eslint-plugin-import:
         specifier: ^2.31.0
-        version: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.8.6)(eslint@9.22.0)
+        version: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.8.7)(eslint@9.22.0)
       eslint-plugin-prettier:
         specifier: ^5.2.3
         version: 5.2.3(eslint-config-prettier@9.1.0(eslint@9.22.0))(eslint@9.22.0)(prettier@3.5.3)
@@ -498,8 +498,8 @@ packages:
       constructs: ^10.4.2
       projen: ^0.91.8
 
-  '@nikovirtala/projen-vitest@1.2.31':
-    resolution: {integrity: sha512-W7WFy5XPxmTuklIruqhJwFYxIOTnoIqJmCkIwoVwVKSKxyaV++ne8OkqSwUluyuak9IdLdOSP3SwN12sCBt2eA==}
+  '@nikovirtala/projen-vitest@1.2.32':
+    resolution: {integrity: sha512-AQu9TpWw0k/V6EtlOAQuddF3xKKWUDZnCpI/jYPUhbrACBNyqla8/VjLqYafvGdwOlylp/Gvv4PqG0LRJdIciQ==}
     engines: {node: '>= 22.12.0'}
     peerDependencies:
       constructs: ^10.4.2
@@ -813,8 +813,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1003.0:
-    resolution: {integrity: sha512-FORPDGW8oUg4tXFlhX+lv/j+152LO9wwi3/CwNr1WY3c3HwJUtc0fZGb2B3+Fzy6NhLWGHJclUsJPEhjEt8Nhg==}
+  aws-cdk@2.1004.0:
+    resolution: {integrity: sha512-3E5ICmSc7ZCZCwLX7NY+HFmmdUYgRaL+67h/BDoDQmkhx9StC8wG4xgzHFY9k8WQS0+ib/MP28f2d9yzHtQLlQ==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -998,8 +998,8 @@ packages:
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
 
-  eslint-import-resolver-typescript@3.8.6:
-    resolution: {integrity: sha512-d9UjvYpj/REmUoZvOtDEmayPlwyP4zOwwMBgtC6RtrpZta8u1AIVmxgZBYJIcCKKXwAcLs+DX2yn2LeMaTqKcQ==}
+  eslint-import-resolver-typescript@3.8.7:
+    resolution: {integrity: sha512-U7k84gOzrfl09c33qrIbD3TkWTWu3nt3dK5sDajHSekfoLlYGusIwSdPlPzVeA6TFpi0Wpj+ZdBD8hX4hxPoww==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '*'
@@ -2241,14 +2241,14 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.99(@nikovirtala/projen-vitest@1.2.31(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2)))(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.99(@nikovirtala/projen-vitest@1.2.32(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2)))(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))':
     dependencies:
-      '@nikovirtala/projen-vitest': 1.2.31(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))
+      '@nikovirtala/projen-vitest': 1.2.32(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))
       aws-cdk-lib: 2.177.0(constructs@10.4.2)
       constructs: 10.4.2
       projen: 0.91.14(constructs@10.4.2)
 
-  '@nikovirtala/projen-vitest@1.2.31(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))':
+  '@nikovirtala/projen-vitest@1.2.32(constructs@10.4.2)(projen@0.91.14(constructs@10.4.2))':
     dependencies:
       constructs: 10.4.2
       projen: 0.91.14(constructs@10.4.2)
@@ -2566,7 +2566,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 39.2.5
       constructs: 10.4.2
 
-  aws-cdk@2.1003.0:
+  aws-cdk@2.1004.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -2844,7 +2844,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.8.6(eslint-plugin-import@2.31.0)(eslint@9.22.0):
+  eslint-import-resolver-typescript@3.8.7(eslint-plugin-import@2.31.0)(eslint@9.22.0):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.0
@@ -2855,22 +2855,22 @@ snapshots:
       stable-hash: 0.0.4
       tinyglobby: 0.2.12
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.8.6)(eslint@9.22.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.8.7)(eslint@9.22.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.6)(eslint@9.22.0):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.7)(eslint@9.22.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.26.1(eslint@9.22.0)(typescript@5.7.2)
       eslint: 9.22.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.8.6(eslint-plugin-import@2.31.0)(eslint@9.22.0)
+      eslint-import-resolver-typescript: 3.8.7(eslint-plugin-import@2.31.0)(eslint@9.22.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.8.6)(eslint@9.22.0):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.8.7)(eslint@9.22.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -2881,7 +2881,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.22.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.6)(eslint@9.22.0)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.7.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.8.7)(eslint@9.22.0)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
