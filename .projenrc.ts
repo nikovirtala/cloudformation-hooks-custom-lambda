@@ -1,5 +1,4 @@
 import { AwsCdkApp } from "@nikovirtala/projen-aws-cdk-app";
-import { javascript } from "projen";
 
 const project = new AwsCdkApp({
     autoApproveOptions: {
@@ -16,8 +15,6 @@ const project = new AwsCdkApp({
     },
     devDeps: ["@nikovirtala/projen-aws-cdk-app"],
     name: "cloudformation-hooks-custom-lambda",
-    packageManager: javascript.NodePackageManager.PNPM,
-    pnpmVersion: "10",
     projenrcTs: true,
     tsconfig: {
         compilerOptions: {
