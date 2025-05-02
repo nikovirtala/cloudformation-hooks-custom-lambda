@@ -17,7 +17,7 @@ const project = new AwsCdkApp({
     devDeps: ["@nikovirtala/projen-aws-cdk-app"],
     name: "cloudformation-hooks-custom-lambda",
     packageManager: javascript.NodePackageManager.PNPM,
-    pnpmVersion: "9",
+    pnpmVersion: "10",
     projenrcTs: true,
     tsconfig: {
         compilerOptions: {
