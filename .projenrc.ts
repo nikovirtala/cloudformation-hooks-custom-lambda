@@ -6,7 +6,7 @@ const project = new AwsCdkApp({
         allowedUsernames: ["nikovirtala"],
         secret: "GITHUB_TOKEN",
     },
-    cdkVersion: "2.177.0",
+    cdkVersion: "2.194.0",
     defaultReleaseBranch: "main",
     deps: ["@types/aws-lambda", "pino"],
     depsUpgradeOptions: {
