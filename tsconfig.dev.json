@@ -24,10 +24,13 @@
     "strictPropertyInitialization": true,
     "stripInternal": true,
     "target": "esnext",
+    "moduleResolution": "nodenext",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
     "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
-    "moduleResolution": "nodenext",
     "noImplicitOverride": true,
     "paths": {
       "@/custom-types": [
@@ -48,6 +51,7 @@
     "projenrc/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "cdk.out"
   ]
 }
