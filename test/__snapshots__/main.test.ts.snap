@@ -39,6 +39,25 @@ exports[`Snapshot 1`] = `
       },
       "Type": "AWS::Lambda::Function",
     },
+    "ChangeSetFunctionLogGroup13343FFC": {
+      "DeletionPolicy": "Retain",
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "ChangeSetFunction2CB6D94D",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 731,
+      },
+      "Type": "AWS::Logs::LogGroup",
+      "UpdateReplacePolicy": "Retain",
+    },
     "ChangeSetFunctionServiceRole87D5FB3A": {
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -206,6 +225,25 @@ exports[`Snapshot 1`] = `
         "Runtime": "nodejs22.x",
       },
       "Type": "AWS::Lambda::Function",
+    },
+    "TemplateFunctionLogGroupC9459929": {
+      "DeletionPolicy": "Retain",
+      "Properties": {
+        "LogGroupName": {
+          "Fn::Join": [
+            "",
+            [
+              "/aws/lambda/",
+              {
+                "Ref": "TemplateFunction8B010058",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 731,
+      },
+      "Type": "AWS::Logs::LogGroup",
+      "UpdateReplacePolicy": "Retain",
     },
     "TemplateFunctionServiceRoleD527DE0A": {
       "Properties": {
