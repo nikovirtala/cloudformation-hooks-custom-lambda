@@ -5,7 +5,7 @@ const project = new AwsCdkApp({
         allowedUsernames: ["nikovirtala"],
         secret: "GITHUB_TOKEN",
     },
-    cdkVersion: "2.194.0",
+    cdkVersion: "2.201.0",
     defaultReleaseBranch: "main",
     deps: ["@types/aws-lambda", "pino"],
     depsUpgradeOptions: {
@@ -15,7 +15,6 @@ const project = new AwsCdkApp({
     },
     devDeps: ["@nikovirtala/projen-aws-cdk-app"],
     name: "cloudformation-hooks-custom-lambda",
-    projenrcTs: true,
     tsconfig: {
         compilerOptions: {
             paths: {

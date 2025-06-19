@@ -1,5 +1,5 @@
+import type { CloudFormationHookHandler, CloudFormationHookRequest, CloudFormationHookResponse } from "@/custom-types";
 import { pino } from "pino";
-import { CloudFormationHookHandler, CloudFormationHookRequest, CloudFormationHookResponse } from "@/custom-types";
 
 interface ChangeSetHookPayload {
     changedResources: Array<{
@@ -24,6 +24,7 @@ export const handler: CloudFormationHookHandler = async (
     };
 
     try {
+        // biome-ignore lint/style/noNonNullAssertion:
         const payloadRequest = await fetch(payloadUrl!);
         const payload: unknown = await payloadRequest.json();
 
@@ -58,6 +59,7 @@ export const handler: CloudFormationHookHandler = async (
     return response;
 };
 
+// biome-ignore lint/suspicious/noExplicitAny:
 function isChangeSetHookPayload(payload: any): payload is ChangeSetHookPayload {
     return payload && Array.isArray(payload.changedResources);
 }
