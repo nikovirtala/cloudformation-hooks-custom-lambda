@@ -1,5 +1,5 @@
 import { join } from "node:path";
-import { Stack, type StackProps, aws_cloudformation, aws_iam, aws_lambda, aws_lambda_nodejs } from "aws-cdk-lib";
+import { aws_cloudformation, aws_iam, aws_lambda, aws_lambda_nodejs, Stack, type StackProps } from "aws-cdk-lib";
 import type { Construct } from "constructs";
 
 export class MyStack extends Stack {

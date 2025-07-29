@@ -1,5 +1,5 @@
-import { MyStack } from "@/stacks";
 import { App } from "aws-cdk-lib";
+import { MyStack } from "@/stacks";
 
 const app = new App();
 

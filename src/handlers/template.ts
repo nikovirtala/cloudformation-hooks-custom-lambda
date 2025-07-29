@@ -1,5 +1,5 @@
-import type { CloudFormationHookHandler, CloudFormationHookRequest, CloudFormationHookResponse } from "@/custom-types";
 import { pino } from "pino";
+import type { CloudFormationHookHandler, CloudFormationHookRequest, CloudFormationHookResponse } from "@/custom-types";
 
 interface TemplateHookPayload {
     template?: string;
@@ -22,8 +22,10 @@ export const handler: CloudFormationHookHandler = async (
     };
 
     try {
-        // biome-ignore lint/style/noNonNullAssertion:
-        const payloadRequest = await fetch(payloadUrl!);
+        if (!payloadUrl) {
+            throw new Error("Payload URL is required");
+        }
+        const payloadRequest = await fetch(payloadUrl);
         const payload: unknown = await payloadRequest.json();
 
         if (isTemplateHookPayload(payload)) {
@@ -50,7 +52,12 @@ export const handler: CloudFormationHookHandler = async (
     return response;
 };
 
-// biome-ignore lint/suspicious/noExplicitAny:
-function isTemplateHookPayload(payload: any): payload is TemplateHookPayload {
-    return payload && (typeof payload.template === "string" || typeof payload.previousTemplate === "string");
+function isTemplateHookPayload(payload: unknown): payload is TemplateHookPayload {
+    return (
+        typeof payload === "object" &&
+        payload !== null &&
+        (("template" in payload && typeof (payload as { template: unknown }).template === "string") ||
+            ("previousTemplate" in payload &&
+                typeof (payload as { previousTemplate: unknown }).previousTemplate === "string"))
+    );
 }

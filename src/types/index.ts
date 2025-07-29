@@ -15,17 +15,14 @@ export interface CloudFormationHookRequest {
         targetType: string;
         targetLogicalId: string;
         targetModel?: {
-            // biome-ignore lint/suspicious/noExplicitAny:
-            resourceProperties: Record<string, any>;
-            // biome-ignore lint/suspicious/noExplicitAny:
-            previousResourceProperties?: Record<string, any>;
+            resourceProperties: Record<string, unknown>;
+            previousResourceProperties?: Record<string, unknown>;
         };
         payload?: string; // S3 Presigned URL for stack and change set operations
     };
     requestContext: {
         invocation: number;
-        // biome-ignore lint/suspicious/noExplicitAny:
-        callbackContext?: any;
+        callbackContext?: unknown;
     };
     clientRequestToken: string;
 }
@@ -35,8 +32,7 @@ export interface CloudFormationHookResponse {
     errorCode?: "NonCompliant" | "InternalFailure";
     message: string;
     clientRequestToken: string;
-    // biome-ignore lint/suspicious/noExplicitAny:
-    callbackContext?: any;
+    callbackContext?: unknown;
     callbackDelaySeconds?: number;
 }
 
