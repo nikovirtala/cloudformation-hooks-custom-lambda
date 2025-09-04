@@ -18,8 +18,8 @@ importers:
         specifier: ^10.0.5
         version: 10.4.2
       pino:
-        specifier: ^9.9.0
-        version: 9.9.0
+        specifier: ^9.9.1
+        version: 9.9.1
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
@@ -38,7 +38,7 @@ importers:
         version: 3.2.4(vitest@3.2.4(@types/node@22.18.0)(tsx@4.20.5))
       aws-cdk:
         specifier: ^2
-        version: 2.1027.0
+        version: 2.1028.0
       esbuild:
         specifier: ^0.25.9
         version: 0.25.9
@@ -548,8 +548,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1027.0:
-    resolution: {integrity: sha512-oo2d1o8L1GBmAG4cDzIloEBOkijf1VzpZKJJguAodUCffDDOaAd6zjEbQbedb3SY+Vg+8m9OUOEXzeLMMg3GPQ==}
+  aws-cdk@2.1028.0:
+    resolution: {integrity: sha512-PcWyjrLiTfhWiqI/R6JmiLO57riONGMhZ2SsdjHuDZ3wSlsz8WtDblohHqaUaylkF1aasYfM6LCnoZFv7eHkNw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -758,8 +758,8 @@ packages:
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
 
-  pino@9.9.0:
-    resolution: {integrity: sha512-zxsRIQG9HzG+jEljmvmZupOMDUQ0Jpj0yAgE28jQvvrdYTlEaiGwelJpdndMl/MBuRr70heIj83QyqJUWaU8mQ==}
+  pino@9.9.1:
+    resolution: {integrity: sha512-40SszWPOPwGhUIJ3zj0PsbMNV1bfg8nw5Qp/tP2FE2p3EuycmhDeYimKOMBAu6rtxcSw2QpjJsuK5A6v+en8Yw==}
     hasBin: true
 
   postcss@8.5.6:
@@ -1349,7 +1349,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 48.6.0
       constructs: 10.4.2
 
-  aws-cdk@2.1027.0:
+  aws-cdk@2.1028.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -1554,7 +1554,7 @@ snapshots:
 
   pino-std-serializers@7.0.0: {}
 
-  pino@9.9.0:
+  pino@9.9.1:
     dependencies:
       atomic-sleep: 1.0.0
       fast-redact: 3.5.0
