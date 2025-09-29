@@ -41,7 +41,7 @@
     "@types/aws-lambda": "^8.10.152",
     "aws-cdk-lib": "^2.201.0",
     "constructs": "^10.0.5",
-    "pino": "^9.11.0"
+    "pino": "^9.12.0"
   },
   "pnpm": {},
   "engines": {
