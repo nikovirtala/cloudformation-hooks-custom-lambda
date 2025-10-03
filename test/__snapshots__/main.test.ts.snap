@@ -22,7 +22,7 @@ exports[`Snapshot 1`] = `
           "S3Bucket": {
             "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
           },
-          "S3Key": "fe95d2f5a2ca834ad4c1bf4f2a0078ed0cce22c27e8eade5a7101fca8c797701.zip",
+          "S3Key": "a2350999cecf9184f7463d6dace9cc4c7a621248e5a463ccec13b7d1d648c52e.zip",
         },
         "Handler": "index.handler",
         "LoggingConfig": {
@@ -190,7 +190,7 @@ exports[`Snapshot 1`] = `
           "S3Bucket": {
             "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
           },
-          "S3Key": "cc69ec8dfabbaac017c4cd0b8ce07b438576853ba4a68e051a21fe144e198fc9.zip",
+          "S3Key": "4ad44bfac7e6735d503576346185f16a7833c20cd924d4219b63652ecff828d3.zip",
         },
         "Handler": "index.handler",
         "LoggingConfig": {
