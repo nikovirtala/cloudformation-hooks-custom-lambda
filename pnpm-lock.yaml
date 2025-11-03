@@ -25,8 +25,8 @@ importers:
         specifier: ^2
         version: 2.3.2
       '@nikovirtala/projen-aws-cdk-app':
-        specifier: ^0.0.133
-        version: 0.0.133(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2)))(aws-cdk-lib@2.221.1(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2))
+        specifier: ^0.0.134
+        version: 0.0.134(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2)))(aws-cdk-lib@2.221.1(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2))
       '@nikovirtala/projen-vitest':
         specifier: ^2.1.0
         version: 2.1.0(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2))
@@ -310,8 +310,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.133':
-    resolution: {integrity: sha512-WQJpiHmbJvyArcd2urcUvIwLfph617szg11/bTiwJttMmqMJFLs1uz7+O0Za//DRJyVez6K2SpikkJKAKsY8HQ==}
+  '@nikovirtala/projen-aws-cdk-app@0.0.134':
+    resolution: {integrity: sha512-0n3MpDzt3/NStQ/d+DUQKJMwpP7w0tofeZBZjSPArYHsHy1h4p28d6hyrWdYcka8R+1m/nTm02IsqvpgApNmbQ==}
     engines: {node: '>= 22.21.0'}
     peerDependencies:
       '@nikovirtala/projen-vitest': ^2.1.0
@@ -971,7 +971,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.133(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2)))(aws-cdk-lib@2.221.1(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.134(@nikovirtala/projen-vitest@2.1.0(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2)))(aws-cdk-lib@2.221.1(constructs@10.4.2))(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2))':
     dependencies:
       '@nikovirtala/projen-vitest': 2.1.0(constructs@10.4.2)(projen@0.98.6(constructs@10.4.2))
       aws-cdk-lib: 2.221.1(constructs@10.4.2)
