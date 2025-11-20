@@ -26,10 +26,10 @@ importers:
         version: 2.3.6
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.140
-        version: 0.0.140(@nikovirtala/projen-vitest@2.1.8(constructs@10.4.3)(projen@0.98.13(constructs@10.4.3)))(aws-cdk-lib@2.225.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.13(constructs@10.4.3))
+        version: 0.0.140(@nikovirtala/projen-vitest@2.1.9(constructs@10.4.3)(projen@0.98.15(constructs@10.4.3)))(aws-cdk-lib@2.225.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.15(constructs@10.4.3))
       '@nikovirtala/projen-vitest':
-        specifier: ^2.1.8
-        version: 2.1.8(constructs@10.4.3)(projen@0.98.13(constructs@10.4.3))
+        specifier: ^2.1.9
+        version: 2.1.9(constructs@10.4.3)(projen@0.98.15(constructs@10.4.3))
       '@types/node':
         specifier: ^22
         version: 22.19.1
@@ -38,13 +38,13 @@ importers:
         version: 4.0.10(vitest@4.0.10(@types/node@22.19.1)(tsx@4.20.6))
       aws-cdk:
         specifier: ^2
-        version: 2.1032.0
+        version: 2.1033.0
       esbuild:
         specifier: ^0.27.0
         version: 0.27.0
       projen:
-        specifier: ^0.98.13
-        version: 0.98.13(constructs@10.4.3)
+        specifier: ^0.98.15
+        version: 0.98.15(constructs@10.4.3)
       tsx:
         specifier: ^4.20.6
         version: 4.20.6
@@ -475,12 +475,12 @@ packages:
       constructs: ^10.4.3
       projen: ^0.98.10
 
-  '@nikovirtala/projen-vitest@2.1.8':
-    resolution: {integrity: sha512-xZqx9KAFjsYgdR7ZyYuyT41OYX7UT/fkU+zqWDyBenSDSYe60HakuK/oaFwK2QCy+MxB6ihLB+WSvt3AR/Cw6g==}
+  '@nikovirtala/projen-vitest@2.1.9':
+    resolution: {integrity: sha512-50WiAC0B1lKRWJMHmIuhFMfgb/eltluY1Bzl7oEfmHu07Bt0xH2uqH5phlen/sq0uomhmtsC9zpaGKC1E1xSBw==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
-      projen: ^0.98.13
+      projen: ^0.98.15
 
   '@pinojs/redact@0.4.0':
     resolution: {integrity: sha512-k2ENnmBugE/rzQfEcdWHcCY+/FM3VLzH9cYEsbdsoqrvzAKRhUZeRNhAZvB8OitQJ1TBed3yqWtdjzS6wJKBwg==}
@@ -670,8 +670,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1032.0:
-    resolution: {integrity: sha512-OFvTnwPrRsFklmPdTAX1li9s6yBWknVlojVy7geuBeJyMZo3aNIe6sbINYjKagRNFhacidbz2RocM7LcwQVY7w==}
+  aws-cdk@2.1033.0:
+    resolution: {integrity: sha512-Pit2k7cVAwxoYI7RMVsOyltuy7/HGENLupJ4KAm/d8mGzOfX+SLOo9YQsx5CKY9J6ErCZ1ViLerklTfjytvQww==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -808,8 +808,8 @@ packages:
   process-warning@5.0.0:
     resolution: {integrity: sha512-a39t9ApHNx2L4+HBnQKqxxHNs1r7KF+Intd8Q/g1bUh6q0WIp9voPXJ/x0j+ZL45KF1pJd9+q2jLIRMfvEshkA==}
 
-  projen@0.98.13:
-    resolution: {integrity: sha512-T6VfpFNS0v1QikOHJ0B6u1xZcX1+xyKXkwMRU4Wse6ePUexEw0oR0PF47JW0DGYE7MyWNSyvn5R9+Olbckh6rw==}
+  projen@0.98.15:
+    resolution: {integrity: sha512-xeJdvP0ClcYn7KZ4H09aQyxM0sJoi3BYeyhz7sR9+ohwiEjlYkSqvj95B1FctBi2aXp0z3DPoT097Ijqe4RRyQ==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -1210,17 +1210,17 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.140(@nikovirtala/projen-vitest@2.1.8(constructs@10.4.3)(projen@0.98.13(constructs@10.4.3)))(aws-cdk-lib@2.225.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.13(constructs@10.4.3))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.140(@nikovirtala/projen-vitest@2.1.9(constructs@10.4.3)(projen@0.98.15(constructs@10.4.3)))(aws-cdk-lib@2.225.0(constructs@10.4.3))(constructs@10.4.3)(projen@0.98.15(constructs@10.4.3))':
     dependencies:
-      '@nikovirtala/projen-vitest': 2.1.8(constructs@10.4.3)(projen@0.98.13(constructs@10.4.3))
+      '@nikovirtala/projen-vitest': 2.1.9(constructs@10.4.3)(projen@0.98.15(constructs@10.4.3))
       aws-cdk-lib: 2.225.0(constructs@10.4.3)
       constructs: 10.4.3
-      projen: 0.98.13(constructs@10.4.3)
+      projen: 0.98.15(constructs@10.4.3)
 
-  '@nikovirtala/projen-vitest@2.1.8(constructs@10.4.3)(projen@0.98.13(constructs@10.4.3))':
+  '@nikovirtala/projen-vitest@2.1.9(constructs@10.4.3)(projen@0.98.15(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
-      projen: 0.98.13(constructs@10.4.3)
+      projen: 0.98.15(constructs@10.4.3)
 
   '@pinojs/redact@0.4.0': {}
 
@@ -1374,7 +1374,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 48.6.0
       constructs: 10.4.3
 
-  aws-cdk@2.1032.0:
+  aws-cdk@2.1033.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -1547,7 +1547,7 @@ snapshots:
 
   process-warning@5.0.0: {}
 
-  projen@0.98.13(constructs@10.4.3):
+  projen@0.98.15(constructs@10.4.3):
     dependencies:
       constructs: 10.4.3
 
