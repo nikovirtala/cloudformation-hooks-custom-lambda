@@ -17,7 +17,6 @@
     ".vscode/settings.json",
     "cdk.json",
     "LICENSE",
-    "mise.toml",
     "tsconfig.dev.json",
     "tsconfig.json",
     "vitest.config.ts"
