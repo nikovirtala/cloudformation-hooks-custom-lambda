@@ -26,9 +26,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-aws-cdk-app": "^0.0.141",
-    "@nikovirtala/projen-vitest": "^2.1.24",
-    "@types/node": "^22",
+    "@nikovirtala/projen-constructs": "^0.2.34",
+    "@types/node": "^24",
     "@vitest/coverage-v8": "^4",
     "aws-cdk": "^2",
     "esbuild": "^0.27.1",
@@ -40,12 +39,12 @@
   "dependencies": {
     "@types/aws-lambda": "^8.10.159",
     "aws-cdk-lib": "^2.201.0",
-    "constructs": "^10.0.5",
+    "constructs": "^10.4.3",
     "pino": "^9.14.0"
   },
   "pnpm": {},
   "engines": {
-    "node": ">= 22.21.1"
+    "node": ">= 24.11.1"
   },
   "license": "Apache-2.0",
   "publishConfig": {
