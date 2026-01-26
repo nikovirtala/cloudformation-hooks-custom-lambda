@@ -38,7 +38,7 @@ importers:
         version: 4.0.18(vitest@4.0.18(@types/node@22.19.7)(tsx@4.21.0))
       aws-cdk:
         specifier: ^2
-        version: 2.1102.0
+        version: 2.1103.0
       esbuild:
         specifier: ^0.27.2
         version: 0.27.2
@@ -670,8 +670,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1102.0:
-    resolution: {integrity: sha512-M/TeLiZERo88hB7FIbT+LyzKQBQuxiGW34oSSfy9+rYTuGwJrO9z6ZZrBNO8/jODT2iR7z0pa3CPsdUVC71oOw==}
+  aws-cdk@2.1103.0:
+    resolution: {integrity: sha512-bxEcqIeAT983x7525gf4Ya4zgpDt3Ou54El7j1ITCa/KqJ8ZaOP4F0ZHiiGuCbZduMcGJlszIXkaPJuvyNADgg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -710,11 +710,6 @@ packages:
     peerDependenciesMeta:
       picomatch:
         optional: true
-
-  fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1359,9 +1354,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 48.20.0
       constructs: 10.4.5
 
-  aws-cdk@2.1102.0:
-    optionalDependencies:
-      fsevents: 2.3.2
+  aws-cdk@2.1103.0: {}
 
   chai@6.2.2: {}
 
@@ -1436,9 +1429,6 @@ snapshots:
   fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
       picomatch: 4.0.3
-
-  fsevents@2.3.2:
-    optional: true
 
   fsevents@2.3.3:
     optional: true
