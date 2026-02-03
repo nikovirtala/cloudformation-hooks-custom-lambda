@@ -13,7 +13,7 @@ importers:
         version: 8.10.160
       aws-cdk-lib:
         specifier: ^2.201.0
-        version: 2.236.0(constructs@10.4.5)
+        version: 2.237.0(constructs@10.4.5)
       constructs:
         specifier: ^10.0.5
         version: 10.4.5
@@ -26,7 +26,7 @@ importers:
         version: 2.3.13
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.141
-        version: 0.0.141(@nikovirtala/projen-vitest@2.1.34(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5)))(aws-cdk-lib@2.236.0(constructs@10.4.5))(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
+        version: 0.0.141(@nikovirtala/projen-vitest@2.1.34(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5)))(aws-cdk-lib@2.237.0(constructs@10.4.5))(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
       '@nikovirtala/projen-vitest':
         specifier: ^2.1.34
         version: 2.1.34(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
@@ -667,8 +667,8 @@ packages:
     resolution: {integrity: sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==}
     engines: {node: '>=8.0.0'}
 
-  aws-cdk-lib@2.236.0:
-    resolution: {integrity: sha512-LauY4BX8vdYL9DvVKCgtJ2gZBwLEgfszTlFe6R2p2NUfEJ+PPpeRGxUbTaOdwLqJGN6mDqmzdoF4or8l2v69PA==}
+  aws-cdk-lib@2.237.0:
+    resolution: {integrity: sha512-uFQ9OKL1jDYguIA9ZniOsvnUt+CZSSXqVec9XP7SjDR5Mys19VsSiMTChBrTywoWDxdjdiVfYE0bmaH2nzV7Cg==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1208,10 +1208,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.141(@nikovirtala/projen-vitest@2.1.34(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5)))(aws-cdk-lib@2.236.0(constructs@10.4.5))(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.141(@nikovirtala/projen-vitest@2.1.34(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5)))(aws-cdk-lib@2.237.0(constructs@10.4.5))(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
     dependencies:
       '@nikovirtala/projen-vitest': 2.1.34(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
-      aws-cdk-lib: 2.236.0(constructs@10.4.5)
+      aws-cdk-lib: 2.237.0(constructs@10.4.5)
       constructs: 10.4.5
       projen: 0.98.34(constructs@10.4.5)
 
@@ -1362,7 +1362,7 @@ snapshots:
 
   atomic-sleep@1.0.0: {}
 
-  aws-cdk-lib@2.236.0(constructs@10.4.5):
+  aws-cdk-lib@2.237.0(constructs@10.4.5):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.263
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
