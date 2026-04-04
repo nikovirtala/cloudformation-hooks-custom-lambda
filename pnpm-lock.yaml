@@ -13,7 +13,7 @@ importers:
         version: 8.10.161
       aws-cdk-lib:
         specifier: ^2.201.0
-        version: 2.247.0(constructs@10.6.0)
+        version: 2.248.0(constructs@10.6.0)
       constructs:
         specifier: ^10.0.5
         version: 10.6.0
@@ -26,19 +26,19 @@ importers:
         version: 2.4.10
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.141
-        version: 0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.247.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
+        version: 0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.248.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
       '@nikovirtala/projen-vitest':
         specifier: ^2.1.35
         version: 2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
       '@types/node':
         specifier: ^22
-        version: 22.19.15
+        version: 22.19.17
       '@vitest/coverage-v8':
         specifier: ^4
-        version: 4.1.2(vitest@4.1.2(@types/node@22.19.15)(vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0)))
+        version: 4.1.2(vitest@4.1.2(@types/node@22.19.17)(vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0)))
       aws-cdk:
         specifier: ^2
-        version: 2.1116.0
+        version: 2.1117.0
       esbuild:
         specifier: ^0.28.0
         version: 0.28.0
@@ -53,7 +53,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: ^4
-        version: 4.1.2(@types/node@22.19.15)(vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0))
+        version: 4.1.2(@types/node@22.19.17)(vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0))
 
 packages:
 
@@ -798,8 +798,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@22.19.15':
-    resolution: {integrity: sha512-F0R/h2+dsy5wJAUe3tAU6oqa2qbWY5TpNfL/RGmo1y38hiyO1w3x2jPtt76wmuaJI4DQnOBu21cNXQ2STIUUWg==}
+  '@types/node@22.19.17':
+    resolution: {integrity: sha512-wGdMcf+vPYM6jikpS/qhg6WiqSV/OhG+jeeHT/KlVqxYfD40iYJf9/AE1uQxVWFvU7MipKRkRv8NSHiCGgPr8Q==}
 
   '@vitest/coverage-v8@4.1.2':
     resolution: {integrity: sha512-sPK//PHO+kAkScb8XITeB1bf7fsk85Km7+rt4eeuRR3VS1/crD47cmV5wicisJmjNdfeokTZwjMk4Mj2d58Mgg==}
@@ -850,8 +850,8 @@ packages:
     resolution: {integrity: sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==}
     engines: {node: '>=8.0.0'}
 
-  aws-cdk-lib@2.247.0:
-    resolution: {integrity: sha512-jwGmLg3qycFx0G+uEhoqk6pzSg6BAiaCQpuUreHUE4BnrhcUEG202BZ+PL8oU943fDjlI/xuwaS+Icru3fecYQ==}
+  aws-cdk-lib@2.248.0:
+    resolution: {integrity: sha512-PGQycx/OdyX+t0o6QUFI1KJAOLoyIVj2WwrN0syrwCi8lYxW2KzldZsW0X+/UN/ALNQwcjSr927ImTpuDOh+bg==}
     engines: {node: '>= 20.0.0'}
     peerDependencies:
       constructs: ^10.5.0
@@ -869,8 +869,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1116.0:
-    resolution: {integrity: sha512-CMB+FUnuuFDgsb3U3TId6JEKpA0vRErpjX2pMR44qxilisKyU8/Z4pJTH1KVRQtXQbLKIXpq73LUVkyIv1jmKQ==}
+  aws-cdk@2.1117.0:
+    resolution: {integrity: sha512-2NbSDDw8LTkGv0uhEDffttmNvgyTAWV5EkLkyPUGAGECzBdwCmbgmRxSoUhbzxZ0XEd1eaqbdVTFRWgtsbj31g==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -1479,10 +1479,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.247.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.248.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))':
     dependencies:
       '@nikovirtala/projen-vitest': 2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
-      aws-cdk-lib: 2.247.0(constructs@10.6.0)
+      aws-cdk-lib: 2.248.0(constructs@10.6.0)
       constructs: 10.6.0
       projen: 0.98.34(constructs@10.6.0)
 
@@ -1581,11 +1581,11 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@22.19.15':
+  '@types/node@22.19.17':
     dependencies:
       undici-types: 6.21.0
 
-  '@vitest/coverage-v8@4.1.2(vitest@4.1.2(@types/node@22.19.15)(vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0)))':
+  '@vitest/coverage-v8@4.1.2(vitest@4.1.2(@types/node@22.19.17)(vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0)))':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/utils': 4.1.2
@@ -1597,7 +1597,7 @@ snapshots:
       obug: 2.1.1
       std-env: 4.0.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.2(@types/node@22.19.15)(vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0))
+      vitest: 4.1.2(@types/node@22.19.17)(vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0))
 
   '@vitest/expect@4.1.2':
     dependencies:
@@ -1608,13 +1608,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.2(vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0))':
+  '@vitest/mocker@4.1.2(vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0))':
     dependencies:
       '@vitest/spy': 4.1.2
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 6.3.5(@types/node@22.19.15)(tsx@4.21.0)
+      vite: 6.3.5(@types/node@22.19.17)(tsx@4.21.0)
 
   '@vitest/pretty-format@4.1.2':
     dependencies:
@@ -1650,14 +1650,14 @@ snapshots:
 
   atomic-sleep@1.0.0: {}
 
-  aws-cdk-lib@2.247.0(constructs@10.6.0):
+  aws-cdk-lib@2.248.0(constructs@10.6.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.273
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.1
       '@aws-cdk/cloud-assembly-schema': 53.9.0
       constructs: 10.6.0
 
-  aws-cdk@2.1116.0: {}
+  aws-cdk@2.1117.0: {}
 
   chai@6.2.2: {}
 
@@ -1933,7 +1933,7 @@ snapshots:
 
   undici-types@6.21.0: {}
 
-  vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0):
+  vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
@@ -1942,14 +1942,14 @@ snapshots:
       rollup: 4.60.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 22.19.15
+      '@types/node': 22.19.17
       fsevents: 2.3.3
       tsx: 4.21.0
 
-  vitest@4.1.2(@types/node@22.19.15)(vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0)):
+  vitest@4.1.2(@types/node@22.19.17)(vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0)):
     dependencies:
       '@vitest/expect': 4.1.2
-      '@vitest/mocker': 4.1.2(vite@6.3.5(@types/node@22.19.15)(tsx@4.21.0))
+      '@vitest/mocker': 4.1.2(vite@6.3.5(@types/node@22.19.17)(tsx@4.21.0))
       '@vitest/pretty-format': 4.1.2
       '@vitest/runner': 4.1.2
       '@vitest/snapshot': 4.1.2
@@ -1966,10 +1966,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.1.0
-      vite: 6.3.5(@types/node@22.19.15)(tsx@4.21.0)
+      vite: 6.3.5(@types/node@22.19.17)(tsx@4.21.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.19.15
+      '@types/node': 22.19.17
     transitivePeerDependencies:
       - msw
 
