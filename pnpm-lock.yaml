@@ -13,7 +13,7 @@ importers:
         version: 8.10.161
       aws-cdk-lib:
         specifier: ^2.201.0
-        version: 2.251.0(constructs@10.6.0)
+        version: 2.252.0(constructs@10.6.0)
       constructs:
         specifier: ^10.0.5
         version: 10.6.0
@@ -26,7 +26,7 @@ importers:
         version: 2.4.13
       '@nikovirtala/projen-aws-cdk-app':
         specifier: ^0.0.141
-        version: 0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.251.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
+        version: 0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.252.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
       '@nikovirtala/projen-vitest':
         specifier: ^2.1.35
         version: 2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
@@ -850,8 +850,8 @@ packages:
     resolution: {integrity: sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==}
     engines: {node: '>=8.0.0'}
 
-  aws-cdk-lib@2.251.0:
-    resolution: {integrity: sha512-H1Jfz2Oyejn+yG24i+By9fZpYfg+E3h1XnFCF2wnt/MyGOTIePRph7MRGkX73ap10ERSpmd0Ly58OLVykFoSQA==}
+  aws-cdk-lib@2.252.0:
+    resolution: {integrity: sha512-bRLyTtJxhVgsx2JrL2B/KYYWf+Rg0s68UgQp+VRZK0h5fXeaPqDVEJGPMr7FiOgrmYwEadjfbxsTsZKNAloAvg==}
     engines: {node: '>= 20.0.0'}
     peerDependencies:
       constructs: ^10.5.0
@@ -958,8 +958,8 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
 
-  nanoid@3.3.11:
-    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+  nanoid@3.3.12:
+    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -990,8 +990,8 @@ packages:
     resolution: {integrity: sha512-8OEwKp5juEvb/MjpIc4hjqfgCNysrS94RIOMXYvpYCdm/jglrKEiAYmiumbmGhCvs+IcInsphYDFwqrjr7398w==}
     hasBin: true
 
-  postcss@8.5.12:
-    resolution: {integrity: sha512-W62t/Se6rA0Az3DfCL0AqJwXuKwBeYg6nOaIgzP+xZ7N5BFCI7DYi1qs6ygUYT6rvfi6t9k65UMLJC+PHZpDAA==}
+  postcss@8.5.13:
+    resolution: {integrity: sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==}
     engines: {node: ^10 || ^12 || >=14}
 
   process-warning@5.0.0:
@@ -1485,10 +1485,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@nikovirtala/projen-aws-cdk-app@0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.251.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))':
+  '@nikovirtala/projen-aws-cdk-app@0.0.141(@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0)))(aws-cdk-lib@2.252.0(constructs@10.6.0))(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))':
     dependencies:
       '@nikovirtala/projen-vitest': 2.1.35(constructs@10.6.0)(projen@0.98.34(constructs@10.6.0))
-      aws-cdk-lib: 2.251.0(constructs@10.6.0)
+      aws-cdk-lib: 2.252.0(constructs@10.6.0)
       constructs: 10.6.0
       projen: 0.98.34(constructs@10.6.0)
 
@@ -1656,7 +1656,7 @@ snapshots:
 
   atomic-sleep@1.0.0: {}
 
-  aws-cdk-lib@2.251.0(constructs@10.6.0):
+  aws-cdk-lib@2.252.0(constructs@10.6.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.273
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.1
@@ -1810,7 +1810,7 @@ snapshots:
     dependencies:
       semver: 7.7.2
 
-  nanoid@3.3.11: {}
+  nanoid@3.3.12: {}
 
   obug@2.1.1: {}
 
@@ -1842,9 +1842,9 @@ snapshots:
       sonic-boom: 4.2.0
       thread-stream: 3.1.0
 
-  postcss@8.5.12:
+  postcss@8.5.13:
     dependencies:
-      nanoid: 3.3.11
+      nanoid: 3.3.12
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -1944,7 +1944,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.12
+      postcss: 8.5.13
       rollup: 4.60.2
       tinyglobby: 0.2.16
     optionalDependencies:
