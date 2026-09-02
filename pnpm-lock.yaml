@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@types/aws-lambda':
-        specifier: ^8.10.162
-        version: 8.10.162
+        specifier: ^8.10.163
+        version: 8.10.163
       aws-cdk-lib:
         specifier: ^2.201.0
         version: 2.267.0(constructs@10.8.1)
@@ -637,8 +637,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@types/aws-lambda@8.10.162':
-    resolution: {integrity: sha512-Fn658grtLOci1oxi1391vvDWJRKNGWRSqfxRkmN/Iy3c0tQH1USMKEXcPYHLvope+ZgTFocx9FRQJx1muBL6qw==}
+  '@types/aws-lambda@8.10.163':
+    resolution: {integrity: sha512-+4zuoEB3S8RIhimtOFT7zAEk2SbpwrKjjGl9CyYnQR6k08uynxfauIIB0pDU1ssr05F8oyGiETwpn+8eXZMqPw==}
 
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
@@ -1341,7 +1341,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@types/aws-lambda@8.10.162': {}
+  '@types/aws-lambda@8.10.163': {}
 
   '@types/chai@5.2.3':
     dependencies:
