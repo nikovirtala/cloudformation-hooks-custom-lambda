@@ -1,19 +1,10 @@
-import { AwsCdkApp } from "@nikovirtala/projen-aws-cdk-app";
+import { AwsCdkTypeScriptAppProject } from "@nikovirtala/projen-constructs";
 
-const project = new AwsCdkApp({
-    autoApproveOptions: {
-        allowedUsernames: ["nikovirtala"],
-        secret: "GITHUB_TOKEN",
-    },
+const project = new AwsCdkTypeScriptAppProject({
     cdkVersion: "2.201.0",
     defaultReleaseBranch: "main",
     deps: ["@types/aws-lambda", "pino"],
-    depsUpgradeOptions: {
-        workflowOptions: {
-            labels: ["auto-approve", "auto-merge"],
-        },
-    },
-    devDeps: ["@nikovirtala/projen-aws-cdk-app"],
+    devDeps: ["@nikovirtala/projen-constructs"],
     name: "cloudformation-hooks-custom-lambda",
     tsconfig: {
         compilerOptions: {
