@@ -36,18 +36,7 @@
     ],
     "isolatedModules": true,
     "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "paths": {
-      "@/custom-types": [
-        "./src/types/index.ts"
-      ],
-      "@/handlers/*": [
-        "./src/handlers/*"
-      ],
-      "@/stacks": [
-        "./src/stacks/index.ts"
-      ]
-    }
+    "noEmit": true
   },
   "include": [
     "src/**/*.ts"
