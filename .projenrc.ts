@@ -6,15 +6,13 @@ const project = new AwsCdkTypeScriptAppProject({
     deps: ["@types/aws-lambda", "pino"],
     devDeps: ["@nikovirtala/projen-constructs"],
     name: "cloudformation-hooks-custom-lambda",
-    tsconfig: {
-        compilerOptions: {
-            paths: {
-                "@/custom-types": ["./src/types/index.ts"],
-                "@/handlers/*": ["./src/handlers/*"],
-                "@/stacks": ["./src/stacks/index.ts"],
-            },
-        },
-    },
+});
+
+/* Node.js subpath imports instead of tsconfig `paths`, which Node.js's native TypeScript support doesn't read.
+ * TypeScript, Vitest and esbuild resolve them too. */
+project.package.addField("imports", {
+    "#custom-types": "./src/types/index.ts",
+    "#stacks": "./src/stacks/index.ts",
 });
 
 project.synth();

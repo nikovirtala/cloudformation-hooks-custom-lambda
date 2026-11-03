@@ -1,7 +1,7 @@
 import { App } from "aws-cdk-lib";
 import { Match, Template } from "aws-cdk-lib/assertions";
 import { beforeAll, describe, test } from "vitest";
-import { MyStack } from "../src/stacks";
+import { MyStack } from "#stacks";
 
 describe("MyStack", () => {
     let template: Template;

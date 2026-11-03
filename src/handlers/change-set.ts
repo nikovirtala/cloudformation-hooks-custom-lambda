@@ -1,5 +1,5 @@
 import { pino } from "pino";
-import type { CloudFormationHookHandler, CloudFormationHookRequest, CloudFormationHookResponse } from "@/custom-types";
+import type { CloudFormationHookHandler, CloudFormationHookRequest, CloudFormationHookResponse } from "#custom-types";
 
 interface ChangeSetHookPayload {
     changedResources: Array<{
